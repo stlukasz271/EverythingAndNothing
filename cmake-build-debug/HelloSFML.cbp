@@ -101,6 +101,9 @@
 		<Unit filename="C:/Users/Public/Documents/Projects/EverythingAndNothing/main.cpp">
 			<Option target="EverythingAndNothing"/>
 		</Unit>
+		<Unit filename="C:/Users/Public/Documents/Projects/EverythingAndNothing/stuff/ball.h">
+			<Option target="EverythingAndNothing"/>
+		</Unit>
 		<Unit filename="C:/Users/Public/Documents/Projects/EverythingAndNothing/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

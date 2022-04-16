@@ -360,7 +360,7 @@ CMakeFiles/EverythingAndNothing.dir/main.cpp.obj: \
  C:/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/SFML/include/SFML/Graphics/Text.hpp \
  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
- C:\Users\Public\Documents\Projects\EverythingAndNothing\algo/trie.h \
- C:\Users\Public\Documents\Projects\EverythingAndNothing\engine/sprite.h \
  C:\Users\Public\Documents\Projects\EverythingAndNothing\engine/physics.h \
- C:\Users\Public\Documents\Projects\EverythingAndNothing\engine/param.h
+ C:\Users\Public\Documents\Projects\EverythingAndNothing\engine/param.h \
+ C:\Users\Public\Documents\Projects\EverythingAndNothing\engine/sprite.h \
+ C:\Users\Public\Documents\Projects\EverythingAndNothing\stuff/ball.h
