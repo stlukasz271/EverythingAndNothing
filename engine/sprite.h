@@ -1,3 +1,5 @@
+#include "physics.h"
+
 using namespace std;
 
 class Sprite{
@@ -10,6 +12,7 @@ class Sprite{
         sf::Sprite sprite;
         vector<vector<string>> paths;
     public:
+        Vector v = Vector(0.0,0.0), a = Vector(0.0,0.0);
         double getX(){
             return x;
         }
@@ -18,20 +21,6 @@ class Sprite{
         }
         string getPath(){
             return paths[anim][frame];
-        }
-        pair<double,double> getV(){
-            return {dx,dy};
-        }
-        pair<double,double> getA(){
-            return {ax,ay};
-        }
-        void setV(double dx,double dy){
-            this->dx=dx;
-            this->dy=dy;
-        }
-        void setA(double ax,double ay){
-            this->ax=ax;
-            this->ay=ay;
         }
         Sprite(double x, double y, string path,bool smooth = true){
             this->x=x;
@@ -47,10 +36,9 @@ class Sprite{
             this->paths = paths;
         }
         void paint(sf::RenderWindow &window){
-            dx+=ax;
-            dy+=ay;
-            x+=dx;
-            y+=dy;
+            v.add(a);
+            x+=v.getX();
+            y+=v.getY();
             image.loadFromFile(getPath());
             texture.loadFromImage(image);
             texture.setSmooth(true);
