@@ -1,4 +1,6 @@
+#pragma once
 #include "physics.h"
+#include "param.h"
 
 using namespace std;
 
@@ -60,8 +62,8 @@ class Sprite{
         Sprite(double x, double y, vector<vector<string>> paths,bool smooth = true){
             this->x=x;
             this->y=y;
+            this->paths=paths;
             this->smooth=smooth;
-            this->paths = paths;
         }
         void paint(sf::RenderWindow &window){
             v.add(a);
@@ -69,10 +71,14 @@ class Sprite{
             y+=v.getY();
             image.loadFromFile(getPath());
             texture.loadFromImage(image);
-            texture.setSmooth(true);
+            texture.setSmooth(smooth);
             sprite.setPosition(x,y);
             sprite.setTexture(texture, true);
             window.draw(sprite);
         }
 
 };
+
+bool operator <(Sprite a, Sprite b){
+    return sqdist(MIDPOINT,a.point()) < sqdist(MIDPOINT,b.point());
+}

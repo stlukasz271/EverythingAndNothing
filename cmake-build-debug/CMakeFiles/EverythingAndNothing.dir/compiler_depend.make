@@ -366,10 +366,10 @@ CMakeFiles/EverythingAndNothing.dir/main.cpp.obj: ../main.cpp \
   C:/SFML/include/SFML/Graphics/Sprite.hpp \
   C:/SFML/include/SFML/Graphics/Text.hpp \
   C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
-  ../algo/trie.h \
-  ../engine/sprite.h \
   ../engine/physics.h \
-  ../engine/param.h
+  ../engine/param.h \
+  ../engine/sprite.h \
+  ../stuff/ball.h
 
 
 C:/mingw32/i686-w64-mingw32/include/assert.h:
@@ -1098,6 +1098,6 @@ C:/SFML/include/SFML/Graphics/Sprite.hpp:
 
 C:/SFML/include/SFML/Graphics/VertexBuffer.hpp:
 
-../algo/trie.h:
-
 ../engine/sprite.h:
+
+../stuff/ball.h:
