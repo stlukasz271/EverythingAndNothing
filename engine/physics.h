@@ -66,11 +66,8 @@ class Vector{
         void add(Vector other){
             add(other.x,other.y);
         }
-        void dot(Vector other){
-            mult(other.getX(),other.getY());
-        }
-        void cross(Vector other){
-            mult(other.getY(),other.getX());
+        double dot(Vector other){
+            return (getX()*other.getX()) + (getY()*other.getY());
         }
 };
 
@@ -80,12 +77,18 @@ Vector add(Vector a, Vector b){
     return c;
 }
 
-Vector dotProduct(Vector a, Vector b){
-    Vector c(a.getX(),a.getY());
-    c.mult(b.getX(),b.getY());
+double dotProduct(Vector a, Vector b){
+    return (a.getX()*b.getX()) + (a.getY()*b.getY());
 }
 
-Vector crossProduct(Vector a, Vector b){
-    Vector c(a.getX(),a.getY());
-    c.mult(b.getY(),b.getX());
+struct Point{
+    double x=0.0,y=0.0;
+};
+
+double sqdist(Point a, Point b){
+    return (b.x-a.x)*(b.x-a.x) + (b.y-a.y)*(b.y-a.y);
+}
+
+double dist(Point a, Point b){
+    return sqrt(sqdist(a,b));
 }

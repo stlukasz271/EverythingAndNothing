@@ -19,6 +19,34 @@ class Sprite{
         double getY(){
             return y;
         }
+        void setX(double x){
+            this->x=x;
+        }
+        void setY(double y){
+            this->y=y;
+        }
+        void set(double x, double y){
+            this->x=x;
+            this->y=y;
+        }
+        void nul(){
+            set(0.0,0.0);
+        }
+        void nulX(){
+            setX(0.0);
+        }
+        void nulY(){
+            setY(0.0);
+        }
+        void addX(double x){
+            setX(this->x+x);
+        }
+        void addY(double y){
+            setY(this->y+y);
+        }
+        Point point(){
+            return {getX(),getY()};
+        }
         string getPath(){
             return paths[anim][frame];
         }

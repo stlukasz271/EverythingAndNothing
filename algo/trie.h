@@ -1,8 +1,3 @@
-//
-// Created by Lukasz on 15.04.2022.
-//
-
-#include<bits/stdc++.h>
 #define f first
 #define s second
 
