@@ -1,5 +1,5 @@
 CMakeFiles/EverythingAndNothing.dir/main.cpp.obj: \
- C:\Users\Public\Documents\Projects\EverythingAndNothing\main.cpp \
+ C:\Projects\EverythingAndNothing\main.cpp \
  C:/SFML/include/SFML/Graphics.hpp C:/SFML/include/SFML/Window.hpp \
  C:/SFML/include/SFML/System.hpp C:/SFML/include/SFML/Config.hpp \
  C:/SFML/include/SFML/System/Clock.hpp \
@@ -361,6 +361,6 @@ CMakeFiles/EverythingAndNothing.dir/main.cpp.obj: \
  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/unordered_set \
  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/unordered_set.h \
  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/shared_mutex \
- C:\Users\Public\Documents\Projects\EverythingAndNothing\algo/trie.h \
- C:\Users\Public\Documents\Projects\EverythingAndNothing\engine/sprite.h \
- C:\Users\Public\Documents\Projects\EverythingAndNothing\engine/param.h
+ C:\Projects\EverythingAndNothing\algo/trie.h \
+ C:\Projects\EverythingAndNothing\engine/sprite.h \
+ C:\Projects\EverythingAndNothing\engine/param.h
