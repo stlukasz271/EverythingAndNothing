@@ -4,7 +4,7 @@ class Sprite{
 
     private:
         double x=0,y=0,dx=0,dy=0,ax=0,ay=0,smooth=true;
-        int frame=0,anim=0,dp=1;
+        int frame=0,anim=0;
         sf::Image image;
         sf::Texture texture;
         sf::Sprite sprite;
@@ -57,14 +57,6 @@ class Sprite{
             sprite.setPosition(x,y);
             sprite.setTexture(texture, true);
             window.draw(sprite);
-            frame+=dp;
-            if(frame == paths[anim].size()){
-                frame =0;
-                dp = -1;
-            }
-            if(frame == 0){
-                dp = 1;
-            }
         }
 
 };

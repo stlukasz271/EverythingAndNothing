@@ -103,17 +103,17 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/Windows.cmake"
   "C:/Program Files/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/JetBrains/CLion 2022.1/bin/cmake/win/share/cmake-3.22/Modules/ProcessorCount.cmake"
-  "../CMakeLists.txt"
-  "CMakeFiles/3.22.3/CMakeCCompiler.cmake"
-  "CMakeFiles/3.22.3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.22.3/CMakeRCCompiler.cmake"
-  "CMakeFiles/3.22.3/CMakeSystem.cmake"
   "C:/SFML/lib/cmake/SFML/SFMLConfig.cmake"
   "C:/SFML/lib/cmake/SFML/SFMLConfigDependencies.cmake"
   "C:/SFML/lib/cmake/SFML/SFMLConfigVersion.cmake"
   "C:/SFML/lib/cmake/SFML/SFMLStaticTargets-debug.cmake"
   "C:/SFML/lib/cmake/SFML/SFMLStaticTargets-release.cmake"
   "C:/SFML/lib/cmake/SFML/SFMLStaticTargets.cmake"
+  "../CMakeLists.txt"
+  "CMakeFiles/3.22.3/CMakeCCompiler.cmake"
+  "CMakeFiles/3.22.3/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.22.3/CMakeRCCompiler.cmake"
+  "CMakeFiles/3.22.3/CMakeSystem.cmake"
   )
 
 # The corresponding makefile is:
