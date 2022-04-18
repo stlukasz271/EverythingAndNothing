@@ -36,12 +36,12 @@ class Ball : public Sprite{
             }else{
                 a.set(-v.getX()/300.0,G_ACC);
             }
-            if(getY()+48 >= GAME_H){
-                addY(-v.getY());
+            if(getY()+48 >= GAME_H || getY()-EPS <= 0){
+                addY(-v.getY()-sign(v.getY())*3.0);
                 v.multY(-0.80);
             }
             if(getX()+48 >= GAME_W || getX()-EPS <= 0){
-                addX(-v.getX());
+                addX(-v.getX()-sign(v.getX())*3.0);
                 v.multX(-0.80);
             }
             if(abs(v.getY())<=EPS){

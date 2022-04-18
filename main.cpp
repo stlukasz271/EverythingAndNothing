@@ -23,11 +23,11 @@ int main()
         Ball ten(i,randint(0,50));
         ballz.push_back(ten);
     }
-    /*for(int i = ((640-48)%30)/2;i+48<=GAME_W;i+=60){
+    for(int i = ((640-48)%60)/2;i+48<=GAME_W;i+=120){
         Ball ten(i,randint(0,75));
         ballz.push_back(ten);
     }
-    for(int i = ((640-48)%30)/2;i+48<=GAME_W;i+=60){
+    /*for(int i = ((640-48)%60)/2;i+48<=GAME_W;i+=120){
         Ball ten(i,randint(0,100));
         ballz.push_back(ten);
     }*/
@@ -45,7 +45,7 @@ int main()
         }
         for(int i = 0;i<ballz.size();i++) {
             for (int j = i+1; j < ballz.size(); j++) {
-                if(dist(ballz[i].point(),ballz[j].point()) <= 48){
+                if(dist(ballz[i].point(),ballz[j].point()) <= 52){
                     double dx = ballz[i].getX()-ballz[j].getX();
                     double dy = ballz[i].getY()-ballz[j].getY();
                     double tga = dy/dx;
@@ -57,8 +57,8 @@ int main()
                     ballz[i].v.add(forcea);
                     Vector forceb = Vector(-d2*cosa,-d2*sina);
                     ballz[j].v.add(forceb);
-                    //ballz[i].move(forcea);
-                   // ballz[j].move(forceb);
+                    ballz[i].move(forcea);
+                    ballz[j].move(forceb);
                 }
             }
         }

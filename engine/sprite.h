@@ -55,7 +55,8 @@ class Sprite{
             addY(y);
         }
         void move(Vector vec){
-            move(vec);
+            addX(vec.getX());
+            addY(vec.getY());
         }
         Point point(){
             return {getX()+24,getY()+24};
