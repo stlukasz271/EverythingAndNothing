@@ -31,14 +31,15 @@ class Vector{
             this->x=x;
             this->y=y;
         }
-        void nul(){
-            set(0.0,0.0);
-        }
         void nulX(){
             setX(0.0);
         }
         void nulY(){
             setY(0.0);
+        }
+        void nul(){
+            nulX();
+            nulY();
         }
         void addX(double x){
             setX(this->x+x);
@@ -61,8 +62,7 @@ class Vector{
             multY(y);
         }
         void mult(double k){
-            multX(k);
-            multY(k);
+            mult(k,k);
         }
         void add(Vector other){
             add(other.x,other.y);
@@ -77,6 +77,13 @@ Vector add(Vector a, Vector b){
     c.add(b);
     return c;
 }
+
+Vector mult(Vector a,double k){
+    Vector c(a.getX(),a.getY());
+    c.mult(k);
+    return c;
+}
+
 
 double dotProduct(Vector a, Vector b){
     return (a.getX()*b.getX()) + (a.getY()*b.getY());

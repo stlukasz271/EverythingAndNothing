@@ -98,6 +98,9 @@
 		<Unit filename="C:/Users/Public/Documents/Projects/EverythingAndNothing/engine/sprite.h">
 			<Option target="EverythingAndNothing"/>
 		</Unit>
+		<Unit filename="C:/Users/Public/Documents/Projects/EverythingAndNothing/engine/util.h">
+			<Option target="EverythingAndNothing"/>
+		</Unit>
 		<Unit filename="C:/Users/Public/Documents/Projects/EverythingAndNothing/main.cpp">
 			<Option target="EverythingAndNothing"/>
 		</Unit>

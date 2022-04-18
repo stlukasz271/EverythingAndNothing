@@ -3,7 +3,7 @@ project(HelloSFML)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(EverythingAndNothing main.cpp algo/trie.h engine/param.h engine/sprite.h engine/physics.h stuff/ball.h)
+add_executable(EverythingAndNothing main.cpp algo/trie.h engine/param.h engine/sprite.h engine/physics.h stuff/ball.h engine/util.h)
 
 set(SFML_STATIC_LIBRARIES TRUE)
 set(SFML_DIR C:/SFML/lib/cmake/SFML)

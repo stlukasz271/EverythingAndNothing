@@ -369,7 +369,8 @@ CMakeFiles/EverythingAndNothing.dir/main.cpp.obj: ../main.cpp \
   ../engine/physics.h \
   ../engine/param.h \
   ../engine/sprite.h \
-  ../stuff/ball.h
+  ../stuff/ball.h \
+  ../engine/util.h
 
 
 C:/mingw32/i686-w64-mingw32/include/assert.h:
@@ -419,6 +420,8 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/regex_executor.tcc:
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cstdio:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/ctime:
+
+../engine/util.h:
 
 C:/mingw32/i686-w64-mingw32/include/string.h:
 

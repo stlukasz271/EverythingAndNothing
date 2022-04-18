@@ -13,6 +13,10 @@ class Sprite{
         sf::Texture texture;
         sf::Sprite sprite;
         vector<vector<string>> paths;
+    protected:
+    virtual void childPaint(sf::RenderWindow &window){
+
+        }
     public:
         Vector v = Vector(0.0,0.0), a = Vector(0.0,0.0);
         double getX(){
@@ -47,7 +51,7 @@ class Sprite{
             setY(this->y+y);
         }
         Point point(){
-            return {getX(),getY()};
+            return {getX()+24,getY()+24};
         }
         string getPath(){
             return paths[anim][frame];
@@ -75,10 +79,7 @@ class Sprite{
             sprite.setPosition(x,y);
             sprite.setTexture(texture, true);
             window.draw(sprite);
+            childPaint(window);
         }
 
 };
-
-bool operator <(Sprite a, Sprite b){
-    return sqdist(MIDPOINT,a.point()) < sqdist(MIDPOINT,b.point());
-}
