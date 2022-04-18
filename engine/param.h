@@ -1,4 +1,5 @@
 #pragma once
+
 using namespace std;
 
 int GAME_W = 800;

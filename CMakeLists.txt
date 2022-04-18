@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.22)
-project(HelloSFML)
+project(EverythingAndNothing)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 20)
 
 add_executable(EverythingAndNothing main.cpp algo/trie.h engine/param.h engine/sprite.h engine/physics.h stuff/ball.h engine/util.h)
 
@@ -11,3 +11,4 @@ find_package(SFML COMPONENTS system window graphics audio network REQUIRED)
 
 include_directories(c:/SFML/include)
 target_link_libraries(EverythingAndNothing sfml-system sfml-window sfml-graphics sfml-audio sfml-network)
+

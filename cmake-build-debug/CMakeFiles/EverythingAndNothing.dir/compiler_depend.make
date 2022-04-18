@@ -45,6 +45,36 @@ CMakeFiles/EverythingAndNothing.dir/main.cpp.obj: ../main.cpp \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/cpp_type_traits.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/ext/type_traits.h \
   C:/mingw32/i686-w64-mingw32/include/math.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/specfun.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_algobase.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/functexcept.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/exception_defines.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/ext/numeric_traits.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_pair.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/move.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/concept_check.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/type_traits \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_iterator_base_funcs.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/debug/assertions.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_iterator.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/ptr_traits.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/debug/debug.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/predefined_ops.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/limits \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/gamma.tcc \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/special_function_util.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/bessel_function.tcc \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/special_function_util.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/beta_function.tcc \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/ell_integral.tcc \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/exp_integral.tcc \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/hypergeometric.tcc \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/legendre_function.tcc \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/modified_bessel_func.tcc \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/poly_hermite.tcc \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/poly_laguerre.tcc \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/riemann_zeta.tcc \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/csetjmp \
   C:/mingw32/i686-w64-mingw32/include/setjmp.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/csignal \
@@ -83,27 +113,12 @@ CMakeFiles/EverythingAndNothing.dir/main.cpp.obj: ../main.cpp \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/exception \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/exception.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/exception_ptr.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/exception_defines.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/cxxabi_init_exception.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/typeinfo \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/hash_bytes.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/new \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/nested_exception.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/move.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/concept_check.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/type_traits \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/char_traits.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_algobase.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/functexcept.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/ext/numeric_traits.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_pair.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_iterator_base_types.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_iterator_base_funcs.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/debug/assertions.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_iterator.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/ptr_traits.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/debug/debug.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/predefined_ops.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cstdint \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/stdint.h \
   C:/mingw32/i686-w64-mingw32/include/stdint.h \
@@ -134,8 +149,10 @@ CMakeFiles/EverythingAndNothing.dir/main.cpp.obj: ../main.cpp \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/basic_string.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/ext/alloc_traits.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/alloc_traits.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/ext/string_conversions.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/string_view \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/functional_hash.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/string_view.tcc \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/ext/string_conversions.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/basic_string.tcc \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/locale_classes.tcc \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/system_error \
@@ -177,7 +194,6 @@ CMakeFiles/EverythingAndNothing.dir/main.cpp.obj: ../main.cpp \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_tempbuf.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_construct.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/uniform_int_dist.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/limits \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bitset \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/deque \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_uninitialized.h \
@@ -195,6 +211,18 @@ CMakeFiles/EverythingAndNothing.dir/main.cpp.obj: ../main.cpp \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/invoke.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/std_function.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/refwrap.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/unordered_map \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/ext/aligned_buffer.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/hashtable.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/hashtable_policy.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/node_handle.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/optional \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/enable_special_members.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/unordered_map.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/vector \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_vector.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_bvector.h \
+  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/vector.tcc \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/iomanip \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/locale \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/locale_facets_nonio.h \
@@ -213,7 +241,6 @@ CMakeFiles/EverythingAndNothing.dir/main.cpp.obj: ../main.cpp \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/list \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_list.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/allocated_ptr.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/ext/aligned_buffer.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/list.tcc \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/map \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_tree.h \
@@ -232,10 +259,6 @@ CMakeFiles/EverythingAndNothing.dir/main.cpp.obj: ../main.cpp \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/numeric \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_numeric.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/queue \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/vector \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_vector.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_bvector.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/vector.tcc \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_queue.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/set \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_set.h \
@@ -285,10 +308,6 @@ CMakeFiles/EverythingAndNothing.dir/main.cpp.obj: ../main.cpp \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/regex_executor.tcc \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/scoped_allocator \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/typeindex \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/unordered_map \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/hashtable.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/hashtable_policy.h \
-  C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/unordered_map.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/unordered_set \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/unordered_set.h \
   C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/shared_mutex \
@@ -375,17 +394,23 @@ CMakeFiles/EverythingAndNothing.dir/main.cpp.obj: ../main.cpp \
 
 C:/mingw32/i686-w64-mingw32/include/assert.h:
 
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/gamma.tcc:
+
 C:/SFML/include/SFML/Graphics/BlendMode.hpp:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/regex:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cassert:
 
-C:/mingw32/i686-w64-mingw32/include/sec_api/stdio_s.h:
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cfloat:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_iterator.h:
 
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cfloat:
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/exception_ptr.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_iterator_base_funcs.h:
+
+C:/mingw32/i686-w64-mingw32/include/sec_api/stdio_s.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/codecvt.h:
 
@@ -415,16 +440,6 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32/bits/os_d
 
 C:/mingw32/i686-w64-mingw32/include/_mingw.h:
 
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/regex_executor.tcc:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cstdio:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/ctime:
-
-../engine/util.h:
-
-C:/mingw32/i686-w64-mingw32/include/string.h:
-
 C:/mingw32/i686-w64-mingw32/include/_mingw_mac.h:
 
 C:/mingw32/i686-w64-mingw32/include/sdks/_mingw_ddk.h:
@@ -439,6 +454,12 @@ C:/mingw32/i686-w64-mingw32/include/vadefs.h:
 
 C:/mingw32/i686-w64-mingw32/include/_mingw_print_pop.h:
 
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/stdalign.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/limits:
+
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_raw_storage_iter.h:
 
 C:/mingw32/i686-w64-mingw32/include/sdks/_mingw_directx.h:
@@ -447,13 +468,13 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/stack:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/stdlib.h:
 
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/bessel_function.tcc:
+
 C:/SFML/include/SFML/System/Vector2.inl:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cstdlib:
 
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_list.h:
-
-C:/mingw32/i686-w64-mingw32/include/stddef.h:
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/exception_defines.h:
 
 C:/mingw32/i686-w64-mingw32/include/_mingw_off_t.h:
 
@@ -461,27 +482,29 @@ C:/mingw32/i686-w64-mingw32/include/corecrt_startup.h:
 
 C:/mingw32/i686-w64-mingw32/include/stdlib.h:
 
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/ptr_traits.h:
-
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stringfwd.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include-fixed/limits.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/ptr_traits.h:
 
 C:/mingw32/i686-w64-mingw32/include/ctype.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include-fixed/syslimits.h:
 
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/debug/assertions.h:
+
 C:/mingw32/i686-w64-mingw32/include/limits.h:
 
-C:/SFML/include/SFML/Window/Clipboard.hpp:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/stddef.h:
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/functexcept.h:
 
 C:/SFML/include/SFML/System/Lock.hpp:
 
 C:/mingw32/i686-w64-mingw32/include/sec_api/stdlib_s.h:
 
-C:/mingw32/i686-w64-mingw32/include/signal.h:
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/memory:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/debug/debug.h:
 
 C:/mingw32/i686-w64-mingw32/include/malloc.h:
 
@@ -489,17 +512,19 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cerrno:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/std_abs.h:
 
-C:/mingw32/i686-w64-mingw32/include/pthread_signal.h:
-
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cctype:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_pair.h:
 
 C:/SFML/include/SFML/Graphics/RenderStates.hpp:
 
 C:/mingw32/i686-w64-mingw32/include/errno.h:
 
-C:/mingw32/i686-w64-mingw32/include/time.h:
-
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/float.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/shared_mutex:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/specfun.h:
 
 C:/mingw32/i686-w64-mingw32/include/_mingw_print_push.h:
 
@@ -513,25 +538,15 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/clocale:
 
 C:/mingw32/i686-w64-mingw32/include/locale.h:
 
-C:/SFML/include/SFML/System/Sleep.hpp:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/locale:
-
-C:/mingw32/i686-w64-mingw32/include/_mingw_stdarg.h:
-
 C:/mingw32/i686-w64-mingw32/include/stdio.h:
 
 C:/mingw32/i686-w64-mingw32/include/swprintf.inl:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cmath:
 
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/streambuf:
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_set.h:
 
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cstddef:
-
-C:/SFML/include/SFML/System/Export.hpp:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/csignal:
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/special_function_util.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/cpp_type_traits.h:
 
@@ -541,17 +556,79 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/ext/type_traits.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cstdint:
 
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/stdarg.h:
+
 C:/mingw32/i686-w64-mingw32/include/math.h:
 
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/stdarg.h:
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/hashtable.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_algobase.h:
+
+C:/mingw32/i686-w64-mingw32/include/sec_api/sys/timeb_s.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/ext/numeric_traits.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/regex_executor.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/predefined_ops.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/gslice.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/move.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/concept_check.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cstring:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/type_traits:
+
+C:/SFML/include/SFML/Window.hpp:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_iterator_base_types.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/beta_function.tcc:
+
+C:/SFML/include/SFML/System/Sleep.hpp:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/locale:
+
+C:/mingw32/i686-w64-mingw32/include/_mingw_stdarg.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/ell_integral.tcc:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/exp_integral.tcc:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/regex_automaton.tcc:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/hypergeometric.tcc:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/legendre_function.tcc:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/modified_bessel_func.tcc:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/shared_ptr_base.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/functional:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/poly_hermite.tcc:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/poly_laguerre.tcc:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/deque.tcc:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tr1/riemann_zeta.tcc:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/csetjmp:
 
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tuple:
-
-C:/mingw32/i686-w64-mingw32/include/_timeval.h:
-
 C:/mingw32/i686-w64-mingw32/include/setjmp.h:
+
+C:/SFML/include/SFML/System/Export.hpp:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/csignal:
+
+C:/mingw32/i686-w64-mingw32/include/signal.h:
+
+C:/mingw32/i686-w64-mingw32/include/pthread_signal.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/thread:
 
@@ -561,19 +638,39 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cstdarg:
 
 C:/mingw32/i686-w64-mingw32/include/stdarg.h:
 
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/type_traits:
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/streambuf:
 
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cstring:
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cstddef:
+
+C:/SFML/include/SFML/Window/Clipboard.hpp:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/stddef.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_list.h:
+
+C:/mingw32/i686-w64-mingw32/include/stddef.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/regex_executor.tcc:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/ctime:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cstdio:
+
+../engine/util.h:
+
+C:/mingw32/i686-w64-mingw32/include/string.h:
 
 C:/SFML/include/SFML/System/NonCopyable.hpp:
 
 C:/mingw32/i686-w64-mingw32/include/sec_api/string_s.h:
 
+C:/mingw32/i686-w64-mingw32/include/time.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/tuple:
+
+C:/mingw32/i686-w64-mingw32/include/_timeval.h:
+
 C:/mingw32/i686-w64-mingw32/include/sys/timeb.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/ext/numeric_traits.h:
-
-C:/mingw32/i686-w64-mingw32/include/sec_api/sys/timeb_s.h:
 
 C:/mingw32/i686-w64-mingw32/include/pthread_time.h:
 
@@ -611,12 +708,6 @@ C:/SFML/include/SFML/System/Vector3.inl:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/exception.h:
 
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_iterator_base_funcs.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/exception_ptr.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/exception_defines.h:
-
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/cxxabi_init_exception.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_uninitialized.h:
@@ -629,37 +720,9 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/hash_bytes.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/nested_exception.h:
 
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/gslice.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/move.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/concept_check.h:
-
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/numeric:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/char_traits.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/hashtable.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_algobase.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/functexcept.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_pair.h:
-
-C:/SFML/include/SFML/Window.hpp:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_iterator_base_types.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/debug/assertions.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/memory:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/debug/debug.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/regex_executor.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/predefined_ops.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_tempbuf.h:
 
@@ -737,7 +800,11 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/queue:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/ext/string_conversions.h:
 
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/string_view:
+
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/functional_hash.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/string_view.tcc:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/basic_string.tcc:
 
@@ -795,12 +862,6 @@ C:/mingw32/i686-w64-mingw32/include/inttypes.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cstdalign:
 
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/limits:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/stdalign.h:
-
 C:/SFML/include/SFML/Graphics/Text.hpp:
 
 C:/SFML/include/SFML/Graphics.hpp:
@@ -841,17 +902,11 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/deque:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_deque.h:
 
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/deque.tcc:
-
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/fstream:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32/bits/basic_file.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32/bits/c++io.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/shared_ptr_base.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/functional:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/array:
 
@@ -866,6 +921,34 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/unordered_map:
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/std_function.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/refwrap.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/ext/aligned_buffer.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/hashtable_policy.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/node_handle.h:
+
+C:/SFML/include/SFML/Graphics/CircleShape.hpp:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/optional:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/enable_special_members.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/unordered_map.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/regex_automaton.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/random:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/vector:
+
+C:/SFML/include/SFML/Window/WindowHandle.hpp:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_vector.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_bvector.h:
+
+C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/vector.tcc:
 
 C:/SFML/include/SFML/Graphics/Drawable.hpp:
 
@@ -905,8 +988,6 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/shared_ptr_atomic.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/allocated_ptr.h:
 
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/ext/aligned_buffer.h:
-
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/valarray_array.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/list.tcc:
@@ -931,23 +1012,7 @@ C:/SFML/include/SFML/System/Time.hpp:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_numeric.h:
 
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/regex_automaton.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/random:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/vector:
-
-C:/SFML/include/SFML/Window/WindowHandle.hpp:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_vector.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_bvector.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/vector.tcc:
-
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_queue.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_set.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_multiset.h:
 
@@ -997,8 +1062,6 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/atomic_futex.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/regex_constants.h:
 
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/regex_automaton.tcc:
-
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/regex_scanner.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/regex_scanner.tcc:
@@ -1011,13 +1074,7 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/scoped_allocator:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/typeindex:
 
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/hashtable_policy.h:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/unordered_map.h:
-
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/unordered_set:
-
-C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/shared_mutex:
 
 C:/SFML/include/SFML/System.hpp:
 
@@ -1062,8 +1119,6 @@ C:/SFML/include/SFML/Window/Window.hpp:
 C:/SFML/include/SFML/Window/WindowStyle.hpp:
 
 C:/SFML/include/SFML/Graphics/Export.hpp:
-
-C:/SFML/include/SFML/Graphics/CircleShape.hpp:
 
 C:/SFML/include/SFML/Graphics/Transform.hpp:
 

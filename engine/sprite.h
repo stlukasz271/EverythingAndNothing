@@ -50,6 +50,13 @@ class Sprite{
         void addY(double y){
             setY(this->y+y);
         }
+        void move(double x, double y){
+            addX(x);
+            addY(y);
+        }
+        void move(Vector vec){
+            move(vec);
+        }
         Point point(){
             return {getX()+24,getY()+24};
         }
