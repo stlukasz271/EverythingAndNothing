@@ -7,7 +7,7 @@
 #include "engine/sprite.h"
 #include "stuff/ball.h"
 #pragma G++ optimize("O3")
-#pragma G++ optimize("unroll-loops")
+#pragma G++ optimize("unroll-loops+")
 
 using namespace std;
 
@@ -20,18 +20,18 @@ int main()
     sf::RenderWindow window(sf::VideoMode(GAME_W, GAME_H), TITLE);
     window.setVerticalSyncEnabled(false);
     window.setFramerateLimit(60);
-    /*for(int i = ((640-48)%60)/2;i+48<=GAME_W;i+=120){
+    for(int i = ((640-48)%60)/2;i+48<=GAME_W;i+=120){
         Ball ten(i,randint(0,50));
         ballz.push_back(ten);
     }
     for(int i = ((640-48)%60)/2;i+48<=GAME_W;i+=120){
         Ball ten(i,randint(0,75));
         ballz.push_back(ten);
-    )*/
+    )
     /*for(int i = ((640-48)%60)/2;i+48<=GAME_W;i+=120){
         Ball ten(i,randint(0,100));
         ballz.push_back(ten);
-    }*/
+    }
     while (window.isOpen()) {
         sf::Event event;
         while (window.pollEvent(event)) {

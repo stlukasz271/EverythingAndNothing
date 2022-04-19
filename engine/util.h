@@ -3,16 +3,16 @@
 #include<SFML/Graphics.hpp>
 #include <bits/stdc++.h>
 
-int sign(auto x){
-    if(x==0){
-        return 0;
-    }
-    if(x<0){
-        return -1;
-    }
-    if(x>0){
-        return 1;
-    }
+int sign(int x){
+    if(x==0){return 0;}
+    if(x<0){return -1;}
+    if(x>0){return 1;}
+}
+
+double sign(double x){
+    if(x==0){return 0.0;}
+    if(x<0){return -1.0;}
+    if(x>0){return 1.0;}
 }
 
 int randint(int a, int b){

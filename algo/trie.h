@@ -1,5 +1,6 @@
 #define f first
 #define s second
+#include<bits/stdc++.h>
 
 using namespace std;
 
