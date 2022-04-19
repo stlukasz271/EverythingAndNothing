@@ -18,7 +18,7 @@ class Sprite{
 
         }
     public:
-        Vector v = Vector(0.0,0.0), a = Vector(0.0,0.0);
+        Vector v = Vector(0.0,0.0), a = Vector(0.0,0.0), vnext = Vector(0.0,0.0);
         double getX(){
             return x;
         }
@@ -79,8 +79,6 @@ class Sprite{
         }
         void paint(sf::RenderWindow &window){
             v.add(a);
-            x+=v.getX();
-            y+=v.getY();
             image.loadFromFile(getPath());
             texture.loadFromImage(image);
             texture.setSmooth(smooth);
@@ -88,6 +86,15 @@ class Sprite{
             sprite.setTexture(texture, true);
             window.draw(sprite);
             childPaint(window);
+            x+=v.getX();
+            y+=v.getY();
         }
 
 };
+
+bool comp_sprite(Sprite a, Sprite b){
+    if(a.getX()==b.getX()){
+        return a.getY()<b.getY();
+    }
+    return a.getX()<b.getX();
+}

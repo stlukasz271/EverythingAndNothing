@@ -31,6 +31,10 @@ class Vector{
             this->x=x;
             this->y=y;
         }
+        void set(Vector other){
+            setX(other.getX());
+            setY(other.getY());
+        }
         void nulX(){
             setX(0.0);
         }
@@ -51,6 +55,15 @@ class Vector{
             addX(x);
             addY(y);
         }
+        static Vector add(Vector a, Vector b){
+            Vector c(a.getX(),a.getY());
+            c.add(b);
+            return c;
+        }
+        Vector& operator+= (Vector other){
+            add(other);
+            return *this;
+        }
         void multX(double x){
             setX(this->x*x);
         }
@@ -64,6 +77,15 @@ class Vector{
         void mult(double k){
             mult(k,k);
         }
+        static Vector mult(Vector a,double k){
+            Vector c(a.getX(),a.getY());
+            c.mult(k);
+            return c;
+        }
+        Vector& operator*= (double k){
+            mult(k);
+            return *this;
+        }
         void add(Vector other){
             add(other.x,other.y);
         }
@@ -71,18 +93,6 @@ class Vector{
             return (getX()*other.getX()) + (getY()*other.getY());
         }
 };
-
-Vector add(Vector a, Vector b){
-    Vector c(a.getX(),a.getY());
-    c.add(b);
-    return c;
-}
-
-Vector mult(Vector a,double k){
-    Vector c(a.getX(),a.getY());
-    c.mult(k);
-    return c;
-}
 
 
 double dotProduct(Vector a, Vector b){
@@ -99,4 +109,12 @@ double sqdist(Point a, Point b){
 
 double dist(Point a, Point b){
     return sqrt(sqdist(a,b));
+}
+
+Vector operator *(Vector a, double k){
+    return Vector::mult(a,k);
+}
+
+Vector operator +(Vector a, Vector b){
+    return Vector::add(a,b);
 }

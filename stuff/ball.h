@@ -24,11 +24,16 @@ class Ball : public Sprite{
             v.set(0.1*randint(-100,100),0);
             a.set(-v.getX()/500.0,G_ACC);
         }
+    Ball(double x, double y, Vector v) : Sprite(x,y,BALLPATH){
+        //v.set(0.1*randint(-100,100),0);
+        this->v=v;
+        a.set(-v.getX()/500.0,G_ACC);
+    }
     protected:
         void childPaint(sf::RenderWindow &window){
-            Arrow arr(getX()+24,getY()+24,mult(v,20));
+            Arrow arr(getX()+24,getY()+24,v*20);
             arr.paint(window);
-            Arrow arr2(getX()+24,getY()+24,mult(a,50), sf::Color(0,255,0));
+            Arrow arr2(getX()+24,getY()+24,a*50, sf::Color(0,255,0));
             arr2.paint(window);
             if(abs(v.getX())<=EPS){
                 v.nulX();
@@ -36,16 +41,13 @@ class Ball : public Sprite{
             }else{
                 a.set(-v.getX()/300.0,G_ACC);
             }
-            if(getY()+48 >= GAME_H || getY()-EPS <= 0){
-                addY(-v.getY()-sign(v.getY())*3.0);
+            if(getY()+48+v.getY() >= GAME_H || getY()+v.getY()-EPS <= 0){
+                //addY(-v.getY());
                 v.multY(-0.80);
             }
-            if(getX()+48 >= GAME_W || getX()-EPS <= 0){
-                addX(-v.getX()-sign(v.getX())*3.0);
+            if(getX()+48+v.getX() >= GAME_W || getX()+v.getX()-EPS <= 0){
+                //addX(-v.getX());
                 v.multX(-0.80);
-            }
-            if(abs(v.getY())<=EPS){
-                v.nulY();
             }
         }
 };
