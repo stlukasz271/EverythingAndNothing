@@ -386,10 +386,45 @@ CMakeFiles/EverythingAndNothing.dir/main.cpp.obj: ../main.cpp \
   C:/SFML/include/SFML/Graphics/Text.hpp \
   C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
   ../engine/physics.h \
-  ../engine/param.h \
+  ../param.h \
+  ../engine/util.h \
   ../engine/sprite.h \
   ../stuff/ball.h \
-  ../engine/util.h
+  ../engine/menus.h \
+  C:/SFML/include/SFML/Main.hpp \
+  ../engine/map_manager.h \
+  ../stuff/tile.h \
+  ../engine/controls.h \
+  C:/SFML/include/SFML/Audio.hpp \
+  C:/SFML/include/SFML/Audio/InputSoundFile.hpp \
+  C:/SFML/include/SFML/Audio/Export.hpp \
+  C:/SFML/include/SFML/Audio/Listener.hpp \
+  C:/SFML/include/SFML/Audio/Music.hpp \
+  C:/SFML/include/SFML/Audio/SoundStream.hpp \
+  C:/SFML/include/SFML/Audio/SoundSource.hpp \
+  C:/SFML/include/SFML/Audio/AlResource.hpp \
+  C:/SFML/include/SFML/Audio/OutputSoundFile.hpp \
+  C:/SFML/include/SFML/Audio/Sound.hpp \
+  C:/SFML/include/SFML/Audio/SoundBuffer.hpp \
+  C:/SFML/include/SFML/Audio/SoundBufferRecorder.hpp \
+  C:/SFML/include/SFML/Audio/SoundRecorder.hpp \
+  C:/SFML/include/SFML/Audio/SoundFileFactory.hpp \
+  C:/SFML/include/SFML/Audio/SoundFileFactory.inl \
+  C:/SFML/include/SFML/Audio/SoundFileReader.hpp \
+  C:/SFML/include/SFML/Audio/SoundFileWriter.hpp \
+  C:/SFML/include/SFML/Network.hpp \
+  C:/SFML/include/SFML/Network/Ftp.hpp \
+  C:/SFML/include/SFML/Network/Export.hpp \
+  C:/SFML/include/SFML/Network/TcpSocket.hpp \
+  C:/SFML/include/SFML/Network/Socket.hpp \
+  C:/SFML/include/SFML/Network/SocketHandle.hpp \
+  C:/mingw32/i686-w64-mingw32/include/basetsd.h \
+  C:/SFML/include/SFML/Network/Http.hpp \
+  C:/SFML/include/SFML/Network/IpAddress.hpp \
+  C:/SFML/include/SFML/Network/Packet.hpp \
+  C:/SFML/include/SFML/Network/SocketSelector.hpp \
+  C:/SFML/include/SFML/Network/TcpListener.hpp \
+  C:/SFML/include/SFML/Network/UdpSocket.hpp
 
 
 C:/mingw32/i686-w64-mingw32/include/assert.h:
@@ -454,6 +489,8 @@ C:/mingw32/i686-w64-mingw32/include/vadefs.h:
 
 C:/mingw32/i686-w64-mingw32/include/_mingw_print_pop.h:
 
+../engine/controls.h:
+
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/stdalign.h:
@@ -476,7 +513,11 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cstdlib:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/exception_defines.h:
 
+C:/SFML/include/SFML/Audio/SoundBuffer.hpp:
+
 C:/mingw32/i686-w64-mingw32/include/_mingw_off_t.h:
+
+C:/SFML/include/SFML/Audio/SoundRecorder.hpp:
 
 C:/mingw32/i686-w64-mingw32/include/corecrt_startup.h:
 
@@ -527,8 +568,6 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/shared_mutex:
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/specfun.h:
 
 C:/mingw32/i686-w64-mingw32/include/_mingw_print_push.h:
-
-../engine/param.h:
 
 C:/mingw32/i686-w64-mingw32/include/float.h:
 
@@ -718,6 +757,8 @@ C:/SFML/include/SFML/Window/GlResource.hpp:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/hash_bytes.h:
 
+../engine/menus.h:
+
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/nested_exception.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/numeric:
@@ -756,6 +797,8 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/stdexcept:
 
 C:/mingw32/i686-w64-mingw32/include/process.h:
 
+C:/SFML/include/SFML/Network/Packet.hpp:
+
 C:/mingw32/i686-w64-mingw32/include/pthread_compat.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/range_access.h:
@@ -785,6 +828,8 @@ C:/SFML/include/SFML/System/Vector2.hpp:
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/cxxabi_forced.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_function.h:
+
+C:/SFML/include/SFML/Audio/SoundBufferRecorder.hpp:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward/binders.h:
 
@@ -828,6 +873,8 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/fstream.tcc:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cwctype:
 
+C:/SFML/include/SFML/Audio.hpp:
+
 ../engine/physics.h:
 
 C:/mingw32/i686-w64-mingw32/include/wctype.h:
@@ -846,6 +893,8 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/ostream:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/ostream.tcc:
 
+../param.h:
+
 C:/SFML/include/SFML/System/String.hpp:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/istream.tcc:
@@ -860,6 +909,8 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cinttypes:
 
 C:/mingw32/i686-w64-mingw32/include/inttypes.h:
 
+C:/SFML/include/SFML/Audio/AlResource.hpp:
+
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cstdalign:
 
 C:/SFML/include/SFML/Graphics/Text.hpp:
@@ -868,9 +919,13 @@ C:/SFML/include/SFML/Graphics.hpp:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cstdbool:
 
+C:/SFML/include/SFML/Network/TcpListener.hpp:
+
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/stdbool.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/cuchar:
+
+C:/SFML/include/SFML/Network/SocketSelector.hpp:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/regex.tcc:
 
@@ -893,6 +948,8 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_heap.h:
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_construct.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/uniform_int_dist.h:
+
+C:/SFML/include/SFML/Audio/InputSoundFile.hpp:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bitset:
 
@@ -919,6 +976,8 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/invoke.h:
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/unordered_map:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/std_function.h:
+
+C:/SFML/include/SFML/Audio/Listener.hpp:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/refwrap.h:
 
@@ -976,9 +1035,13 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/unique_ptr.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/quoted_string.h:
 
+C:/SFML/include/SFML/Main.hpp:
+
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/iterator:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stream_iterator.h:
+
+C:/SFML/include/SFML/Audio/SoundSource.hpp:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/regex_compiler.h:
 
@@ -994,6 +1057,8 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/list.tcc:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/map:
 
+C:/SFML/include/SFML/Network.hpp:
+
 C:/SFML/include/SFML/System/String.inl:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_map.h:
@@ -1008,11 +1073,15 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/shared_ptr.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/atomic_base.h:
 
+C:/SFML/include/SFML/Network/Http.hpp:
+
 C:/SFML/include/SFML/System/Time.hpp:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_numeric.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_queue.h:
+
+C:/SFML/include/SFML/Audio/SoundFileReader.hpp:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/stl_multiset.h:
 
@@ -1048,6 +1117,8 @@ C:/SFML/include/SFML/Graphics/Shape.hpp:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/std_mutex.h:
 
+C:/SFML/include/SFML/Audio/Export.hpp:
+
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/forward_list:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/forward_list.h:
@@ -1066,6 +1137,8 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/regex_scanner.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/regex_scanner.tcc:
 
+C:/SFML/include/SFML/Network/Export.hpp:
+
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/unordered_set.h:
 
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/bits/regex_compiler.tcc:
@@ -1077,6 +1150,8 @@ C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/typeindex:
 C:/mingw32/lib/gcc/i686-w64-mingw32/7.3.0/include/c++/unordered_set:
 
 C:/SFML/include/SFML/System.hpp:
+
+C:/SFML/include/SFML/Audio/SoundFileFactory.hpp:
 
 C:/SFML/include/SFML/Config.hpp:
 
@@ -1122,6 +1197,8 @@ C:/SFML/include/SFML/Graphics/Export.hpp:
 
 C:/SFML/include/SFML/Graphics/Transform.hpp:
 
+C:/mingw32/i686-w64-mingw32/include/basetsd.h:
+
 C:/SFML/include/SFML/Graphics/Vertex.hpp:
 
 C:/SFML/include/SFML/Graphics/Rect.hpp:
@@ -1159,3 +1236,31 @@ C:/SFML/include/SFML/Graphics/VertexBuffer.hpp:
 ../engine/sprite.h:
 
 ../stuff/ball.h:
+
+../engine/map_manager.h:
+
+../stuff/tile.h:
+
+C:/SFML/include/SFML/Audio/Music.hpp:
+
+C:/SFML/include/SFML/Audio/SoundStream.hpp:
+
+C:/SFML/include/SFML/Audio/OutputSoundFile.hpp:
+
+C:/SFML/include/SFML/Audio/Sound.hpp:
+
+C:/SFML/include/SFML/Audio/SoundFileFactory.inl:
+
+C:/SFML/include/SFML/Audio/SoundFileWriter.hpp:
+
+C:/SFML/include/SFML/Network/Ftp.hpp:
+
+C:/SFML/include/SFML/Network/TcpSocket.hpp:
+
+C:/SFML/include/SFML/Network/Socket.hpp:
+
+C:/SFML/include/SFML/Network/SocketHandle.hpp:
+
+C:/SFML/include/SFML/Network/IpAddress.hpp:
+
+C:/SFML/include/SFML/Network/UdpSocket.hpp:

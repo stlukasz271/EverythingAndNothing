@@ -23,18 +23,22 @@ class Ball : public Sprite{
         Ball(double x, double y) : Sprite(x,y,BALLPATH){
             v.set(0.1*randint(-100,100),0);
             a.set(-v.getX()/500.0,G_ACC);
+            w = 32;
+            h = 32;
         }
     Ball(double x, double y, Vector v) : Sprite(x,y,BALLPATH){
         //v.set(0.1*randint(-100,100),0);
         this->v=v;
+        w = 32;
+        h = 32;
         a.set(-v.getX()/500.0,G_ACC);
     }
     protected:
         void childPaint(sf::RenderWindow &window){
             Arrow arr(getX()+24,getY()+24,v*20);
-            arr.paint(window);
+            //arr.paint(window);
             Arrow arr2(getX()+24,getY()+24,a*50, sf::Color(0,255,0));
-            arr2.paint(window);
+            //arr2.paint(window);
             if(abs(v.getX())<=EPS){
                 v.nulX();
                 a.nulX();

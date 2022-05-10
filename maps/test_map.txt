@@ -1,0 +1,29 @@
+TILE 1 grass.png 2 0 668.0
+TILE 1 grass.png 2 32 668.0
+TILE 1 grass.png 2 64 668.0
+TILE 1 grass.png 2 96 668.0
+TILE 1 grass.png 2 128 668.0
+TILE 1 grass.png 2 160 668.0
+TILE 1 grass.png 2 192 668.0
+TILE 1 grass.png 2 224 668.0
+TILE 1 grass.png 2 256 668.0
+TILE 1 grass.png 2 288 668.0
+TILE 1 grass.png 2 320 668.0
+TILE 1 grass.png 2 352 668.0
+TILE 1 grass.png 2 384 668.0
+TILE 1 grass.png 2 416 668.0
+TILE 1 grass.png 2 448 668.0
+TILE 1 grass.png 2 480 668.0
+TILE 1 grass.png 2 512 668.0
+TILE 1 grass.png 2 544 668.0
+TILE 1 grass.png 2 576 668.0
+TILE 1 grass.png 2 608 668.0
+TILE 1 grass.png 2 640 668.0
+TILE 1 grass.png 2 672 668.0
+TILE 1 grass.png 2 704 668.0
+TILE 1 grass.png 2 736 668.0
+TILE 1 grass.png 2 768 668.0
+TILE 1 grass.png 2 800 668.0
+TILE 1 grass.png 2 832 668.0
+TILE 1 grass.png 4 864 668.0 36.0 32.0
+

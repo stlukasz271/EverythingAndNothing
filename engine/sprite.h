@@ -1,24 +1,43 @@
 #pragma once
 #include "physics.h"
-#include "param.h"
+#include "../param.h"
 
 using namespace std;
 
 class Sprite{
 
     private:
-        double x=0,y=0,dx=0,dy=0,ax=0,ay=0,smooth=true;
-        int frame=0,anim=0;
+        double x=0.0,y=0.0,dx=0.0,dy=0.0,ax=0.0,ay=0.0;
+    int frame=0,anim=0;
         sf::Image image;
         sf::Texture texture;
-        sf::Sprite sprite;
         vector<vector<string>> paths;
+        vector<vector<sf::Texture>> textures;
+        sf::Sprite sprite;
     protected:
-    virtual void childPaint(sf::RenderWindow &window){
+            double w=-1.0,h=-1.0;
+            virtual void render(sf::RenderWindow &window){
+                load();
+                sf::Texture curr = getTexture();
+                sprite.setTexture(curr);
+                sprite.setPosition(x,y);
+                if(w*h<=0.0){
+                    cerr<<"WHAT THE FUCK";cerr.flush();
+                    throw std::invalid_argument("WHAT THE FUCK");
+                }
+                if(w!=-1.0) {
+                    if(sprite.getGlobalBounds().width!=w||sprite.getGlobalBounds().height!=h){/*if(abs(sprite.getGlobalBounds().width-w)>EPS&&abs(sprite.getGlobalBounds().height-h)>EPS) {*/
+                       sprite.scale(w / sprite.getGlobalBounds().width, h / sprite.getGlobalBounds().height);
+                    }
+                }
+                window.draw(sprite);
+            }
+            virtual void childPaint(sf::RenderWindow &window){}
 
-        }
+    double smooth = true;
     public:
-        Vector v = Vector(0.0,0.0), a = Vector(0.0,0.0), vnext = Vector(0.0,0.0);
+        bool is_alive = true;
+        Vector v = Vector(0.0,0.0), a = Vector(0.0,0.0);
         double getX(){
             return x;
         }
@@ -64,28 +83,45 @@ class Sprite{
         string getPath(){
             return paths[anim][frame];
         }
+        sf::Texture getTexture(){
+            return textures[anim][frame];
+        }
         Sprite(double x, double y, string path,bool smooth = true){
             this->x=x;
             this->y=y;
             this->smooth=smooth;
             vector<string> tmp({path});
             paths.push_back(tmp);
+            load();
         }
         Sprite(double x, double y, vector<vector<string>> paths,bool smooth = true){
             this->x=x;
             this->y=y;
             this->paths=paths;
             this->smooth=smooth;
+            load();
+        }
+        void load(){
+            if(textures.size()){
+                return;
+            }
+            for(vector<string> vpaths : paths){
+                vector<sf::Texture> vtextures;
+                for(string path : vpaths){
+                    sf::Image temp;
+                    temp.loadFromFile(path);
+                    sf::Texture texture;
+                    texture.loadFromImage(temp);
+                    vtextures.push_back(texture);
+                }
+                textures.push_back(vtextures);
+            }
         }
         void paint(sf::RenderWindow &window){
-            v.add(a);
-            image.loadFromFile(getPath());
-            texture.loadFromImage(image);
-            texture.setSmooth(smooth);
-            sprite.setPosition(x,y);
-            sprite.setTexture(texture, true);
-            window.draw(sprite);
+            if(!is_alive){return;}
+            render(window);
             childPaint(window);
+            v.add(a);
             x+=v.getX();
             y+=v.getY();
         }

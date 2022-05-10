@@ -128,6 +128,19 @@ EverythingAndNothing/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EverythingAndNothing.dir\build.make CMakeFiles/EverythingAndNothing.dir/build
 .PHONY : EverythingAndNothing/fast
 
+#=============================================================================
+# Target rules for targets named MapEditor
+
+# Build rule for target.
+MapEditor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MapEditor
+.PHONY : MapEditor
+
+# fast build rule for target.
+MapEditor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MapEditor.dir\build.make CMakeFiles/MapEditor.dir/build
+.PHONY : MapEditor/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -152,6 +165,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EverythingAndNothing.dir\build.make CMakeFiles/EverythingAndNothing.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+map_creator.obj: map_creator.cpp.obj
+.PHONY : map_creator.obj
+
+# target to build an object file
+map_creator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MapEditor.dir\build.make CMakeFiles/MapEditor.dir/map_creator.cpp.obj
+.PHONY : map_creator.cpp.obj
+
+map_creator.i: map_creator.cpp.i
+.PHONY : map_creator.i
+
+# target to preprocess a source file
+map_creator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MapEditor.dir\build.make CMakeFiles/MapEditor.dir/map_creator.cpp.i
+.PHONY : map_creator.cpp.i
+
+map_creator.s: map_creator.cpp.s
+.PHONY : map_creator.s
+
+# target to generate assembly for a file
+map_creator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MapEditor.dir\build.make CMakeFiles/MapEditor.dir/map_creator.cpp.s
+.PHONY : map_creator.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,9 +198,13 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... EverythingAndNothing
+	@echo ... MapEditor
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... map_creator.obj
+	@echo ... map_creator.i
+	@echo ... map_creator.s
 .PHONY : help
 
 
